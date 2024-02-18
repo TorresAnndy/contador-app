@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import '../Style/Contador.css'
 
-function Contador() {
+function Contador()
+{
     //manejar el estado de una variable/constante
     const [cont, setcont] = useState(0);
     //cont almacena el valor
